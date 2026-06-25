@@ -1,0 +1,428 @@
+{
+  "about": {
+    "title": "About Bal Dental Centre",
+    "subheading": "More Than A Dentist — A Neighbourhood Tradition",
+    "metaDescription": "Get to know Bal Dental Centre — our team, our office, our patients, and our award-winning commitment to dentistry in Scarborough.",
+    "hero": "/baldental/pages/about/hero.png",
+    "stats": [
+      { "value": "25+", "label": "Years In Practice" },
+      { "value": "10K+", "label": "Happy Patients" },
+      { "value": "5×", "label": "Award Winner" },
+      { "label": "Dental Emergencies Welcome" },
+      { "label": "Open 7 Days a Week" }
+    ],
+    "sections": [
+      {
+        "heading": "More Than A Dentist — A Neighbourhood Tradition",
+        "body": "Twenty-five years of award-winning dentistry, three generations of loyal patients, and one stubborn belief: that great dental care should feel calm, clear, and human.",
+        "cta": { "label": "Book A Welcome Visit", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Explore About Us",
+        "subheading": "Pick A Place To Start Exploring",
+        "bullets": [
+          { "label": "Meet Our Team", "description": "Six clinicians and a coordinator who treat every patient like family.", "href": "/about/meet-our-team" },
+          { "label": "Why Us", "description": "Four pillars of premium care that set us apart from the rest.", "href": "/about/why-us" },
+          { "label": "Tour Our Office", "description": "Step inside a dental office designed by patients, for patients.", "href": "/about/tour-our-office" },
+          { "label": "How To Select The Best Dentist", "description": "The six-point checklist we wish every patient had before choosing.", "href": "/about/how-to-select-the-best-dentist" },
+          { "label": "Smile Gallery", "description": "Real patients, real transformations. Filter by treatment type.", "href": "/about/smile-gallery" },
+          { "label": "Blog", "description": "Plain-English insights from our clinical team to your inbox.", "href": "/blog" },
+          { "label": "NIHB (First Nations)", "description": "Direct billing for status-card holders. Zero paperwork, zero out-of-pocket.", "href": "/about/nihb" }
+        ]
+      },
+      {
+        "heading": "Questions? We're happy to chat.",
+        "body": "Call, message, or just walk in. Our team answers honestly, never pushes treatment, and is always glad to give a tour with no appointment.",
+        "cta": { "label": "Book Appointment", "href": "/book-appointment" },
+        "phone": "416-267-6789"
+      }
+    ],
+    "images": [
+      "/baldental/pages/about/1.jpg",
+      "/baldental/pages/about/2.jpg",
+      "/baldental/pages/about/3.png",
+      "/baldental/pages/about/nihb-hero.jpg",
+      "/baldental/pages/about/select-2.jpg",
+      "/baldental/pages/about/select-3.jpg"
+    ]
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "subheading": "We'd Love to Hear From You",
+    "metaDescription": "Get in touch with Bal Dental Centre. Call, email or use our quick contact form. Open 7 days a week — same-day emergencies welcome.",
+    "hero": "/baldental/pages/contact/hero.jpg",
+    "stats": [
+      { "value": "<1 day", "label": "Email Response" },
+      { "value": "7 Days", "label": "Phone Coverage" },
+      { "value": "7", "label": "Languages Spoken Here" },
+      { "label": "Dental Emergencies Welcome" },
+      { "label": "Open 7 Days a Week" }
+    ],
+    "sections": [
+      {
+        "heading": "Get In Touch",
+        "subheading": "We'd Love to Hear From You",
+        "body": "Got a question, need a quote, or want to chat about a specific concern? Call, email or send us a message — we respond fast and never push you toward treatment you don't need.",
+        "cta": { "label": "Book Appointment Instead", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Reach Us Your Way",
+        "subheading": "Three Ways to Get in Touch",
+        "contactMethods": [
+          { "label": "Call Us (Primary)", "value": "416-267-6789", "href": "tel:+14162676789" },
+          { "label": "Our Location", "value": "4 Greystone Walk Dr #4, Scarborough, ON M1K 5J2", "href": "https://www.google.com/maps/place/Bal+Dental+Centre/@43.7247316,-79.2551198,785m" },
+          { "label": "Email (General Inquiries)", "value": "info@baldentalcentre.com", "href": "mailto:info@baldentalcentre.com" }
+        ]
+      },
+      {
+        "heading": "Send a Message",
+        "subheading": "Quick Contact Form",
+        "body": "For appointment requests, please use our booking form instead — it's faster.",
+        "form": {
+          "type": "PracProsForm",
+          "note": "Rendered as a PracPros-embedded contact form component"
+        }
+      },
+      {
+        "heading": "Office Hours",
+        "hours": [
+          { "day": "Monday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Tuesday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Wednesday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Thursday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Friday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Saturday", "hours": "9 a.m. – 6 p.m." },
+          { "day": "Sunday", "hours": "10 a.m. – 5 p.m." }
+        ]
+      },
+      {
+        "heading": "Or skip the form — just book a visit",
+        "body": "Most patients find it faster to book directly. Our team confirms within 2 business hours and answers any questions on the call.",
+        "cta": { "label": "Book Appointment", "href": "/book-appointment" },
+        "phone": "416-267-6789"
+      }
+    ],
+    "images": [
+      "/baldental/pages/contact/side.jpg"
+    ]
+  },
+
+  "new-patients": {
+    "title": "New Patient Welcome",
+    "subheading": "Welcome to Bal Dental Centre",
+    "metaDescription": "Welcome to Bal Dental Centre. New patient info, what to expect, insurance & financing, and how to book your first visit — all in one place.",
+    "hero": "/baldental/pages/new-patients/hero.jpg",
+    "stats": [
+      { "value": "Free", "label": "First Consultation" },
+      { "value": "60 min", "label": "First Visit Length" },
+      { "label": "Zero Pressure to Commit" },
+      { "label": "Dental Emergencies Welcome" },
+      { "label": "Open 7 Days a Week" }
+    ],
+    "sections": [
+      {
+        "heading": "New Patient Welcome",
+        "subheading": "Welcome to Bal Dental Centre",
+        "body": "Whether you're joining us for the first time or returning after years away — we're glad you're here. Find everything you need to make your first visit smooth, comfortable and stress-free.",
+        "cta": { "label": "Book My First Visit", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Your First Visit",
+        "subheading": "What to Expect on Day One",
+        "body": "No clipboard pressure, no rushed exam, no surprise bills. Here's exactly how your first 60 minutes with us unfolds.",
+        "image": "/baldental/pages/new-patients/welcome.jpg",
+        "steps": [
+          { "number": "01", "title": "Warm Welcome", "body": "Coffee or tea? Take a seat in our welcome lounge — calm music, fresh refreshments, no pressure." },
+          { "number": "02", "title": "Health Review", "body": "We review your medical history, current concerns, and any goals — what brought you in matters most." },
+          { "number": "03", "title": "Comprehensive Exam", "body": "Digital X-rays, oral cancer screening, gum-pocket check, and detailed bite analysis. About 30 minutes." },
+          { "number": "04", "title": "Your Written Plan", "body": "Walk out with a custom plan in writing — pricing, options, insurance estimates and recommended sequence." }
+        ]
+      },
+      {
+        "heading": "Save 15 Minutes",
+        "subheading": "Fill out your new patient paperwork from home",
+        "body": "Skip the clipboard. Complete our intake forms online before you arrive — your visit starts on time and your information stays secure on our HIPAA-compliant system.",
+        "image": "/baldental/pages/new-patients/forms.jpg",
+        "bullets": [
+          "Medical history & current medications",
+          "Dental concerns & goals",
+          "Insurance details (we verify benefits for you)",
+          "Emergency contact & consent forms"
+        ],
+        "cta": { "label": "Start Online Intake", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Insurance & Financing",
+        "subheading": "Pay Your Way — No Surprises",
+        "body": "We bill insurance directly so you never pay full price up-front. For uncovered care, we offer 0% financing and an affordable in-house membership plan.",
+        "image": "/baldental/pages/new-patients/insurance.jpg",
+        "insuranceProviders": [
+          "Manulife", "Sun Life", "Canada Life", "Green Shield", "Blue Cross",
+          "Desjardins", "iA / Industrial Alliance", "SSQ Insurance", "Equitable Life",
+          "NIHB (First Nations)", "+ many more"
+        ],
+        "financingOptions": [
+          { "label": "0% Interest Financing", "body": "12–24 month payment plans on approved credit for treatments over $1,000." },
+          { "label": "Direct Insurance Billing", "body": "We submit, follow up, and only collect your portion at checkout." },
+          { "label": "In-House Membership Plan", "body": "No-insurance dental club: 2 cleanings/year + 20% off all treatment, $39/mo." },
+          { "label": "Senior & Student Discounts", "body": "10% off all non-insured services for seniors 65+ and full-time students." }
+        ]
+      },
+      {
+        "heading": "First-Visit FAQ",
+        "subheading": "Common New Patient Questions",
+        "faqs": [
+          { "q": "What should I bring to my first visit?", "a": "Photo ID, your insurance card (or details), and a list of any medications. If you have prior X-rays from another office, we'll happily review them for free." },
+          { "q": "How long is the first appointment?", "a": "Plan for 60–75 minutes: 15 min check-in & paperwork, 30 min comprehensive exam, 15 min treatment planning chat. We never rush." },
+          { "q": "Can I get a cleaning at my first visit?", "a": "Sometimes — it depends on your gum health. For some patients we recommend an exam first to plan a proper cleaning. We'll always discuss it with you up-front." },
+          { "q": "Do you accept walk-ins?", "a": "For emergencies — yes, always. For non-urgent visits, booking ensures we have proper time set aside for you. Try our online booking or call ahead." },
+          { "q": "What if I'm nervous about the dentist?", "a": "You're far from alone. We offer nitrous oxide (laughing gas), oral and IV sedation depending on your anxiety level. Just tell us — we'll go at your pace." },
+          { "q": "Will you push expensive treatment on me?", "a": "Never. We diagnose what we see, prioritize what's urgent, and present options (not ultimatums). Every plan is yours to take home and think about — no pressure." }
+        ]
+      },
+      {
+        "heading": "Ready for a different kind of dental experience?",
+        "body": "Book your first visit. Walk out with a written plan, a clear sense of cost, and zero pressure. That's our promise.",
+        "cta": { "label": "Book Appointment", "href": "/book-appointment" },
+        "phone": "416-267-6789"
+      }
+    ],
+    "images": [
+      "/baldental/pages/new-patients/welcome.jpg",
+      "/baldental/pages/new-patients/forms.jpg",
+      "/baldental/pages/new-patients/insurance.jpg"
+    ]
+  },
+
+  "cdcp-dentist": {
+    "title": "Canadian Dental Care Plan",
+    "subheading": "The Canadian Dental Care Plan",
+    "metaDescription": "The Canadian Dental Care Plan (CDCP) provides dental coverage for residents without dental benefits and a household income under $90,000 a year. Learn how it works at Bal Dental Centre in Scarborough.",
+    "hero": "/baldental/pages/cdcp-dentist/nihb-hero.jpg",
+    "stats": [
+      { "value": "<$90K", "label": "Household Income" },
+      { "label": "All Ages Now Eligible" },
+      { "value": "0–60%", "label": "Co-Payment" },
+      { "label": "Dental Emergencies Welcome" },
+      { "label": "Open 7 Days a Week" }
+    ],
+    "sections": [
+      {
+        "heading": "The Canadian Dental Care Plan",
+        "body": "The Canadian Dental Care Plan (CDCP) is a federal government program that is intended to provide coverage for Canadian residents who do not have dental benefits and have a household income of less than $90,000 a year.",
+        "cta": { "label": "Book An Appointment", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Filling in the facts about the CDCP",
+        "bullets": [
+          "Dental care under the CDCP is expected to start in May 2024.",
+          "The CDCP is a dental benefit administered by Health Canada.",
+          "It is not a free dental program. Patients may also have to pay costs the CDCP does not cover.",
+          "Not all dental services are covered under the CDCP.",
+          "Before proceeding with treatment, it is important to understand your dental care costs.",
+          "Please tell your dental provider if you plan to use CDCP benefits as their practice may or may not participate in the federal program."
+        ],
+        "image": "/baldental/pages/cdcp-dentist/reception.jpg"
+      },
+      {
+        "heading": "Co-Payment by Family Net Income",
+        "copaymentTiers": [
+          { "income": "Under $70,000", "copay": "0%", "description": "No co-payment of the CDCP benefit for those with an adjusted annual family net income under $70,000." },
+          { "income": "$70,000 – $79,999", "copay": "40%", "description": "A 40 per cent co-payment of the CDCP benefit for those with an adjusted annual family net income between $70,000 and $79,999." },
+          { "income": "$80,000 – $89,999", "copay": "60%", "description": "A 60 per cent co-payment of the CDCP benefit for those with an adjusted annual family net income between $80,000 and $89,999." }
+        ],
+        "cta": { "label": "Learn more at canada.ca/dental", "href": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan.html" }
+      },
+      {
+        "heading": "Do You Qualify?",
+        "subheading": "Now Open To All Eligible Canadians",
+        "body": "The Canadian Dental Care Plan (CDCP) is now open to all eligible Canadians, regardless of age.",
+        "bullets": [
+          "Be a Canadian resident",
+          "Have no access to private dental insurance",
+          "Have a family net income under $90,000",
+          "Have filed your 2024 tax return"
+        ],
+        "body2": "Eligible individuals can apply online, by phone, or through a Service Canada Centre.",
+        "cta": { "label": "Apply at canada.ca/dental", "href": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan.html" }
+      },
+      {
+        "heading": "Services That May Be Covered",
+        "subheading": "What's Covered",
+        "body": "Examples of services that could be covered under the CDCP when recommended by your dentist. Coverage levels vary by group, which affects your co-payment and any remaining balance.",
+        "coveredServices": [
+          { "category": "Preventive Services", "examples": "Scaling (cleaning), polishing, sealants, and fluoride." },
+          { "category": "Diagnostic Services", "examples": "Examinations and X-rays." },
+          { "category": "Restorative Services", "examples": "Fillings to repair damaged or decayed teeth." },
+          { "category": "Endodontic Services", "examples": "Root canal treatments." },
+          { "category": "Prosthodontic Services", "examples": "Complete and partial removable dentures." },
+          { "category": "Periodontal Services", "examples": "Deep scaling for gum health." },
+          { "category": "Oral Surgery Services", "examples": "Including extractions." }
+        ]
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Good To Know",
+        "faqs": [
+          { "q": "How do I access the CDCP?", "a": "The federal government has opened application for the CDCP in phases starting in December 2023. Seniors who are eligible will receive letters inviting them to apply, with instructions on how to validate their eligibility and apply by telephone." },
+          { "q": "What services will be covered under the CDCP?", "a": "Examples include: preventive services (scaling, polishing, sealants, fluoride); diagnostic services (examinations, X-rays); restorative services (fillings); endodontic services (root canals); prosthodontic services (dentures); periodontal services (deep scaling); and oral surgery (extractions). Every group has a different level of coverage." },
+          { "q": "Am I eligible for the CDCP if I already receive coverage from provincial government programs?", "a": "If you are eligible for existing provincial government programs, you will still be able to apply for the CDCP. Benefits will be coordinated between the programs, which means that your coverage will not be duplicated." },
+          { "q": "What is included when they say dental insurance?", "a": "Not having access to dental insurance is defined as: no dental insurance through your employer or a family member's employer benefits; no dental insurance through your pension; no dental insurance purchased by yourself or through a group plan." },
+          { "q": "Should I cancel my private insurance?", "a": "No. The government has said that the CDCP is not intended to replace existing workplace or private dental benefits. If you have existing insurance, you SHOULD NOT cancel your insurance." },
+          { "q": "When can I get my CDCP benefits?", "a": "Once you've applied through Health Canada and they confirm you qualify, your information will be shared with Sun Life, who will enroll you in the CDCP. Sun Life will then send you your coverage start date and member card." },
+          { "q": "Should I wait until the CDCP is launched before visiting the dentist?", "a": "No. It's better to continue getting regular dental checkups now to catch problems before they become painful and expensive to treat, and apply for the plan when you are eligible to do so." }
+        ]
+      }
+    ],
+    "images": [
+      "/baldental/pages/cdcp-dentist/reception.jpg",
+      "/baldental/pages/cdcp-dentist/nihb-hero.jpg"
+    ]
+  },
+
+  "services": {
+    "title": "Complete Dental Care",
+    "subheading": "Eighteen Services, One Trusted Practice",
+    "metaDescription": "Complete dental services in Scarborough — preventive, restorative, cosmetic, orthodontics, and emergency care. All under one roof, billed direct to insurance.",
+    "hero": "/baldental/pages/services/hub-hero.jpg",
+    "stats": [
+      { "value": "18", "label": "Specialized Services" },
+      { "value": "7 Days", "label": "Open Per Week" },
+      { "value": "$0", "label": "Down to Start" },
+      { "label": "Dental Emergencies Welcome" }
+    ],
+    "sections": [
+      {
+        "heading": "Complete Dental Care",
+        "subheading": "Eighteen Services, One Trusted Practice",
+        "body": "From your child's first cleaning to grandpa's implants — every dental need answered under one roof. Direct insurance billing, transparent pricing, and treatment plans you can take home in writing.",
+        "cta": { "label": "Book A Consultation", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Browse by Category",
+        "subheading": "Explore Every Service We Offer",
+        "categories": [
+          {
+            "number": "01",
+            "label": "Preventive Care",
+            "description": "Stop problems before they start.",
+            "services": [
+              { "name": "Preventive Dentistry", "description": "Cleanings, exams, and protective treatments that stop problems before they start.", "href": "/services/preventive-dentistry", "image": "/baldental/pages/services/hub-preventive.jpg" }
+            ]
+          },
+          {
+            "number": "02",
+            "label": "Restorative",
+            "description": "Repair, replace, and renew teeth.",
+            "services": [
+              { "name": "Dental Implants", "description": "Permanent, natural-feeling teeth replacements starting at $3,000 all-inclusive.", "href": "/services/dental-implants", "image": "/baldental/pages/services/hub-implants.jpeg" },
+              { "name": "Dental Crowns & Bridges", "description": "Restore damaged or missing teeth with tooth-coloured crowns and natural-looking bridges.", "href": "/services/dental-crowns-bridges", "image": "/baldental/pages/services/hub-crowns.jpg" },
+              { "name": "Dentures & Partials", "description": "Custom-crafted dentures that fit comfortably and look completely natural.", "href": "/services/dentures-partials", "image": "/baldental/pages/services/hub-dentures.jpg" },
+              { "name": "Tooth-Colored Fillings", "description": "Mercury-free, metal-free composite fillings that match your tooth perfectly.", "href": "/services/tooth-colored-fillings", "image": "/baldental/pages/services/hub-fillings.jpg" },
+              { "name": "Root Canal", "description": "Gentle, same-day root canals that relieve severe pain and save your natural tooth.", "href": "/services/root-canal", "image": "/baldental/pages/services/hub-root-canal.jpg" },
+              { "name": "Tooth Extractions", "description": "Gentle, calm tooth removal when a tooth can't be saved — including wisdom teeth.", "href": "/services/tooth-extractions", "image": "/baldental/pages/services/hub-extractions.jpg" }
+            ]
+          },
+          {
+            "number": "03",
+            "label": "Cosmetic",
+            "description": "Designed smiles built around your face.",
+            "services": [
+              { "name": "Cosmetic Dentistry", "description": "Smile makeovers, whitening, veneers, and bonding — designed around your face and goals.", "href": "/services/cosmetic-dentistry", "image": "/baldental/pages/services/hub-cosmetic.jpg" },
+              { "name": "Porcelain Veneers", "description": "Hand-crafted porcelain shells that transform your smile in just two visits.", "href": "/services/porcelain-veneers", "image": "/baldental/pages/services/hub-veneers.jpg" },
+              { "name": "Teeth Whitening", "description": "Professional whitening that goes 5–8 shades brighter than over-the-counter strips.", "href": "/services/teeth-whitening", "image": "/baldental/pages/services/hub-whitening.jpg" },
+              { "name": "Lumineers", "description": "Ultra-thin, no-prep veneers — a reversible alternative to traditional porcelain veneers.", "href": "/services/lumineers", "image": "/baldental/pages/services/hub-lumineers.jpg" },
+              { "name": "Composite Bonding", "description": "Same-day repair for chips, gaps and small cosmetic concerns — no drilling required.", "href": "/services/composite-bonding", "image": "/baldental/pages/services/hub-bonding.jpg" },
+              { "name": "Snap-On Smile", "description": "Removable, non-invasive smile makeover — snap a beautiful new smile over your existing teeth.", "href": "/services/snap-on-smile", "image": "/baldental/pages/services/hub-snap-on.jpg" }
+            ]
+          },
+          {
+            "number": "04",
+            "label": "Orthodontics",
+            "description": "Straighter teeth for every age.",
+            "services": [
+              { "name": "Orthodontics", "description": "Comprehensive orthodontic care for children, teens and adults — braces and clear aligners.", "href": "/services/orthodontics", "image": "/baldental/pages/services/hub-ortho.png" },
+              { "name": "Invisalign Clear Braces", "description": "Virtually invisible aligners that straighten teeth without metal wires or brackets.", "href": "/services/invisalign", "image": "/baldental/pages/services/hub-invisalign.jpg" }
+            ]
+          },
+          {
+            "number": "05",
+            "label": "Specialty Care",
+            "description": "Sedation, TMJ, emergency expertise.",
+            "services": [
+              { "name": "TMJ Therapy", "description": "Relief from jaw pain, headaches and grinding through customized TMJ treatment.", "href": "/services/tmj-therapy", "image": "/baldental/pages/services/hub-tmj.jpg" },
+              { "name": "Sedation Dentistry", "description": "Nitrous, oral and IV sedation options for nervous patients and complex procedures.", "href": "/services/sedation-dentistry", "image": "/baldental/pages/services/hub-sedation.jpg" },
+              { "name": "Dental Emergency", "description": "Same-day emergency care for tooth pain, broken teeth, knocked-out teeth and abscesses.", "href": "/services/dental-emergency", "image": "/baldental/pages/services/hub-emergency.jpg" }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Not sure where to start? We'll guide you.",
+        "body": "Book a 30-minute consultation. No treatment pressure, just honest answers.",
+        "cta": { "label": "Book A Consultation", "href": "/book-appointment" }
+      }
+    ]
+  },
+
+  "book-appointment": {
+    "title": "Book Appointment",
+    "subheading": "Reserve Your Visit — It Takes 2 Minutes",
+    "metaDescription": "Book your dental appointment online. Same-day emergencies welcome. We confirm within 2 business hours and bill insurance directly.",
+    "hero": "/baldental/pages/book-appointment/hero.jpg",
+    "stats": [
+      { "value": "2 hrs", "label": "Confirmation Window" },
+      { "value": "7 Days A Week", "label": "Available" },
+      { "label": "Free First Consult" },
+      { "label": "Dental Emergencies Welcome" }
+    ],
+    "sections": [
+      {
+        "heading": "Book Online",
+        "subheading": "Reserve Your Visit — It Takes 2 Minutes",
+        "body": "Tell us a bit about yourself and your preferred time. Our team confirms within 2 business hours, bills insurance directly, and never charges hidden fees.",
+        "cta": { "label": "Book Appointment", "href": "/book-appointment" }
+      },
+      {
+        "heading": "Request Your Appointment",
+        "subheading": "Step 1 of 1",
+        "body": "Fill the form below — we'll call to confirm within 2 business hours.",
+        "form": {
+          "type": "PracProsForm",
+          "note": "Booking form rendered via PracPros embedded form component",
+          "sellingPoints": [
+            "Confirmation call within 2 business hours",
+            "Direct insurance billing — no paperwork",
+            "Free first-visit consultation",
+            "Same-day emergencies accepted 7 days a week"
+          ]
+        },
+        "sidebarAward": {
+          "image": "/baldental/pages/book-appointment/side.jpg",
+          "imageAlt": "Welcoming dental visit",
+          "badge": "Award-Winning Care",
+          "badgeDetail": "Readers' Choice Winner 2013–17"
+        }
+      },
+      {
+        "heading": "Prefer to Call?",
+        "phone": "416-267-6789",
+        "body": "Reach a live team member 7 days a week during office hours. After hours, leave a voicemail and we'll call first thing.",
+        "hours": [
+          { "day": "Monday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Tuesday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Wednesday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Thursday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Friday", "hours": "9 a.m. – 7 p.m." },
+          { "day": "Saturday", "hours": "9 a.m. – 6 p.m." },
+          { "day": "Sunday", "hours": "10 a.m. – 5 p.m." }
+        ],
+        "locationNote": "4 Greystone Walk Dr #4, Scarborough, ON M1K 5J2. Free on-site parking. Wheelchair accessible. Near Greystone Park and IV bus Superstation."
+      }
+    ],
+    "images": [
+      "/baldental/pages/book-appointment/side.jpg"
+    ]
+  }
+}
