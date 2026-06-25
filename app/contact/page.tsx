@@ -186,18 +186,18 @@ export default function ContactPage() {
             </h2>
           </div>
           <div className="rounded-2xl bg-white ring-1 ring-[#e0dccf] shadow-card overflow-hidden">
-            {(hours.hours as { day: string; time: string }[])?.map((h, i) => (
+            {hours.hours?.map((h, i) => (
               <div
                 key={h.day}
                 className={`flex items-center justify-between px-6 py-4 text-[14px] ${
-                  i < (hours.hours as []).length - 1 ? "border-b border-[#e0dccf]" : ""
+                  i < (hours.hours?.length ?? 0) - 1 ? "border-b border-[#e0dccf]" : ""
                 }`}
               >
                 <span className="font-semibold text-[#000033] inline-flex items-center gap-2">
                   <ClockIcon className="h-4 w-4 text-[#a2844e]" />
                   {h.day}
                 </span>
-                <span className="text-[#334155]">{h.time}</span>
+                <span className="text-[#334155]">{h.hours}</span>
               </div>
             ))}
           </div>

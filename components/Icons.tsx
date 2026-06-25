@@ -200,6 +200,14 @@ export function ToothIcon(props: IconProps) {
   );
 }
 
+export function MapleLeafIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M12 1.5l-1.6 3.2c-.3.6-1 .9-1.6.6L6.5 4.2l.7 3.9c.1.6-.3 1.2-.9 1.3l-2.6.4 2 2.1c.4.4.4 1 0 1.4l-.6.7 4.7 1.1c.5.1.8.6.7 1.1l-.4 2 3.1-.4c.6-.1 1.1.4 1.1 1V22h1.6v-3.2c0-.6.5-1 1.1-1l3.1.4-.4-2c-.1-.5.2-1 .7-1.1l4.7-1.1-.6-.7c-.4-.4-.4-1 0-1.4l2-2.1-2.6-.4c-.6-.1-1-.7-.9-1.3l.7-3.9-2.3 1.1c-.6.3-1.3 0-1.6-.6L12 1.5z" />
+    </svg>
+  );
+}
+
 export function ArrowRightIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>

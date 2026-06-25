@@ -6,6 +6,7 @@ import { Logo } from "./Logo";
 import {
   ChevronDownIcon,
   CloseIcon,
+  MapleLeafIcon,
   MapPinIcon,
   MenuIcon,
   PhoneIcon,
@@ -76,9 +77,10 @@ export function Navbar() {
                   }`}
                 >
                   {link.flag ? (
-                    <span className="text-[14px]" aria-hidden>
-                      🇨🇦
-                    </span>
+                    <MapleLeafIcon
+                      className="h-4 w-4 text-[#D80621]"
+                      aria-hidden
+                    />
                   ) : null}
                   {link.label}
                   {link.menu ? (
@@ -234,7 +236,12 @@ export function Navbar() {
                       onClick={() => !link.menu && setOpen(false)}
                       className="flex-1 inline-flex items-center gap-2 px-2 py-3 text-[13px] font-semibold uppercase tracking-wide text-white"
                     >
-                      {link.flag ? <span>🇨🇦</span> : null}
+                      {link.flag ? (
+                        <MapleLeafIcon
+                          className="h-4 w-4 text-[#D80621]"
+                          aria-hidden
+                        />
+                      ) : null}
                       {link.label}
                     </a>
                     {link.menu ? (

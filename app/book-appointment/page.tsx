@@ -263,13 +263,13 @@ export default function BookAppointmentPage() {
                 <div className="flex items-center gap-2 text-white/90 mb-3">
                   <ClockIcon className="h-4 w-4" /> <span className="font-bold">OFFICE HOURS</span>
                 </div>
-                {(callSec.hours as { day: string; time: string }[])?.map((h) => (
+                {callSec.hours?.map((h) => (
                   <div
                     key={h.day}
                     className="flex justify-between border-b border-white/15 last:border-0 py-1.5"
                   >
                     <span className="text-white/80">{h.day}</span>
-                    <span className="font-semibold text-white">{h.time}</span>
+                    <span className="font-semibold text-white">{h.hours}</span>
                   </div>
                 ))}
               </div>

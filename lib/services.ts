@@ -20,12 +20,14 @@ export type Service = {
   relatedServices?: { slug: string; name: string }[];
 };
 
+type RawFAQ = { question: string; answer: string };
+
 type RawB = {
   title: string;
   subheading: string;
   hero: string;
   sections: { heading?: string; paragraphs?: string[]; bullets?: string[] }[];
-  faqs?: { q: string; a: string }[];
+  faqs?: RawFAQ[];
   images?: string[];
 };
 
@@ -37,14 +39,17 @@ type RawC = {
   h3s?: string[];
   paragraphs?: string[];
   list_items?: string[];
-  faqs?: { q: string; a: string }[];
+  faqs?: RawFAQ[];
   pricing?: string[];
   related_services?: { slug: string; name: string }[];
   images?: string[];
 };
 
-const RAW_B = servicesB as Record<string, RawB>;
-const RAW_C = servicesC as Record<string, RawC>;
+const mapFaqs = (faqs?: RawFAQ[]) =>
+  (faqs ?? []).map((f) => ({ q: f.question, a: f.answer }));
+
+const RAW_B = servicesB as unknown as Record<string, RawB>;
+const RAW_C = servicesC as unknown as Record<string, RawC>;
 
 function normalizeB(slug: string, r: RawB): Service {
   // Filter out sections with empty content
@@ -61,7 +66,7 @@ function normalizeB(slug: string, r: RawB): Service {
     subheading: r.subheading,
     hero: r.hero,
     sections,
-    faqs: r.faqs ?? [],
+    faqs: mapFaqs(r.faqs),
     images: r.images ?? [],
   };
 }
@@ -95,7 +100,7 @@ function normalizeC(slug: string, r: RawC): Service {
     sections,
     benefits: r.h3s,
     pricing: r.pricing,
-    faqs: r.faqs ?? [],
+    faqs: mapFaqs(r.faqs),
     images: r.images ?? [],
     relatedServices: r.related_services,
   };

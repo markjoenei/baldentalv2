@@ -233,7 +233,7 @@ export default function NewPatientsPage() {
       </section>
 
       <PageFAQ
-        faqs={faq.faqs as { q: string; a: string }[]}
+        faqs={faq.faqs ?? []}
         heading={faq.heading}
         eyebrow={faq.subheading ?? "FAQ"}
       />

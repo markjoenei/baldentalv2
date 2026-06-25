@@ -243,7 +243,7 @@ export default function CDCPPage() {
       </section>
 
       <PageFAQ
-        faqs={faq.faqs as { q: string; a: string }[]}
+        faqs={faq.faqs ?? []}
         heading={faq.heading}
         eyebrow={faq.subheading ?? "FAQ"}
       />
