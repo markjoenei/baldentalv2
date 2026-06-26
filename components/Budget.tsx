@@ -54,8 +54,8 @@ export function Budget() {
               style={{ borderRadius: "50% / 22%" }}
             >
               <Image
-                src="/baldental/affordable-dentistry.jpg"
-                alt="Bal Dental Centre reception desk"
+                src="/baldental/affordable-dentistry.png"
+                alt="Bal Dental Centre signage in the Scarborough office reception"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
