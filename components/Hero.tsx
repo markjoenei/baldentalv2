@@ -130,7 +130,7 @@ export function Hero() {
           style={{
             width: "max-content",
             whiteSpace: "nowrap",
-            animation: "marquee-left 28s linear infinite",
+            animation: "marquee-left 70s linear infinite",
             willChange: "transform",
           }}
         >

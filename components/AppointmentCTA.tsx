@@ -49,7 +49,7 @@ export function AppointmentCTA() {
           style={{
             width: "max-content",
             whiteSpace: "nowrap",
-            animation: "marquee-left 30s linear infinite",
+            animation: "marquee-left 75s linear infinite",
             willChange: "transform",
           }}
         >

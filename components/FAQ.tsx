@@ -9,20 +9,36 @@ type Faq = { q: string; a: string };
 
 const FAQS: Faq[] = [
   {
-    q: "How do I find the best place to get dental work done?",
-    a: "Time for a checkup and cleaning? Need a tooth repaired or replaced? Want your smile to look fantastic at an upcoming special event? If so, you'll find everything you need right here at the Bal Dental Centre. We're able to perform just about any treatment you can imagine in-house, making it easier than ever to get the healthy, beautiful smile you deserve.",
+    q: "Are you accepting new patients?",
+    a: "Yes! Bal Dental Centre warmly welcomes new patients of all ages — from toddlers to seniors. New patients booking a first exam, X-ray, and cleaning also receive a complimentary $50 gift card. Call 416-267-6789 or book online to get started.",
   },
   {
-    q: "How can I make a same-day appointment with a dentist?",
-    a: "Yes, call us at 416-267-6789 and we will do our very best to fit you in for an emergency or same-day appointment.",
+    q: "Do you accept the Canadian Dental Care Plan (CDCP)?",
+    a: "Yes, we are proud CDCP-approved providers and welcome patients enrolled in the Canadian Dental Care Plan. We also accept IFHP (refugee), NIHB, and direct billing to most major insurance providers — making care accessible for the whole community.",
   },
   {
-    q: "What do you do if you can't afford a dentist?",
-    a: "We offer flexible financing options and direct billing to most insurance providers. We will work with you to find a solution.",
+    q: "Can I book a same-day or emergency appointment?",
+    a: "Absolutely. Toothache, broken tooth, swelling, or knocked-out tooth — call us at 416-267-6789 and we will do our best to see you the same day. We reserve daily emergency slots and are open 7 days a week including evenings and weekends.",
   },
   {
-    q: "What level of education is required to be a dentist?",
-    a: "Dentists in Canada complete an undergraduate degree followed by 4 years of dental school to earn a DDS or DMD degree, along with provincial licensing.",
+    q: "What are your hours and do you open on weekends?",
+    a: "We are open 7 days a week to fit busy schedules. Monday to Friday 9 a.m.–7 p.m., Saturday 9 a.m.–6 p.m., and Sunday 10 a.m.–5 p.m. — evenings and weekends always welcome.",
+  },
+  {
+    q: "Do you offer direct insurance billing?",
+    a: "Yes. We submit claims electronically and directly to your insurance provider so you only pay any remaining balance — no paperwork hassle on your end. Bring your insurance card to your visit and our front-desk team will handle the rest.",
+  },
+  {
+    q: "What payment and financing options are available?",
+    a: "We offer flexible monthly payment plans with $0 down options on treatments like Invisalign and implants. We accept cash, debit, all major credit cards, and partner with third-party financing so cost never stands between you and the smile you deserve.",
+  },
+  {
+    q: "Do you treat children and the whole family?",
+    a: "Yes — we are a family-friendly practice and love seeing kids. Our caring team makes children feel safe and at ease, and our flexible hours make it easy for parents to book the whole family on the same day.",
+  },
+  {
+    q: "Where are you located and is parking available?",
+    a: "We are at 4 Greystone Walk Dr #4, Scarborough, ON M1K 5J2 — easy to reach from Eglinton East, Kennedy, and the surrounding Scarborough neighbourhoods. Free patient parking is available right on-site.",
   },
 ];
 

@@ -18,15 +18,16 @@ type NavLink = {
   href: string;
   menu?: "services";
   flag?: boolean;
+  emergency?: boolean;
 };
 
 const NAV_LINKS: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
+  { label: "Emergency Care", href: "/services/dental-emergency", emergency: true },
   { label: "Our Services", href: "/services", menu: "services" },
   { label: "New Patients", href: "/new-patients" },
   { label: "CDCP", href: "/cdcp-dentist", flag: true },
-  { label: "Emergency Care", href: "/services/dental-emergency" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -45,15 +46,13 @@ export function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-[#a2844e] text-white transition-shadow ${
-        scrolled ? "shadow-[0_4px_18px_rgba(0,0,51,0.25)]" : ""
+      className={`sticky top-0 z-50 bg-white text-[#000033] border-b border-[#e0dccf] transition-shadow ${
+        scrolled ? "shadow-[0_4px_18px_rgba(0,0,51,0.12)]" : ""
       }`}
     >
       <div className="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-4 py-3 md:px-8 xl:px-10">
         <Link href="/" aria-label="Bal Dental Centre home" className="shrink-0">
-          <div className="rounded-md bg-white px-3 py-2 ring-1 ring-white/20 shadow-sm">
-            <Logo width={108} height={56} />
-          </div>
+          <Logo width={150} height={78} />
         </Link>
 
         <nav
@@ -72,9 +71,11 @@ export function Navbar() {
               >
                 <a
                   href={link.href}
-                  className={`relative inline-flex items-center gap-1.5 px-2 xl:px-3 py-2 text-[13px] xl:text-[14px] font-semibold uppercase tracking-wide text-white hover:text-[#000033] transition-colors ${
-                    isServices && servicesOpen ? "text-[#000033]" : ""
-                  }`}
+                  className={`relative inline-flex items-center gap-1.5 px-2 xl:px-3 py-2 text-[13px] xl:text-[14px] font-semibold uppercase tracking-wide transition-colors ${
+                    link.emergency
+                      ? "text-[#D80621] hover:text-[#a2844e]"
+                      : "text-[#000033] hover:text-[#a2844e]"
+                  } ${isServices && servicesOpen ? "text-[#a2844e]" : ""}`}
                 >
                   {link.flag ? (
                     <MapleLeafIcon
@@ -91,7 +92,7 @@ export function Navbar() {
                     />
                   ) : null}
                   <span
-                    className={`absolute left-2 right-2 -bottom-0.5 h-[2px] bg-white transition-transform origin-left ${
+                    className={`absolute left-2 right-2 -bottom-0.5 h-[2px] bg-[#a2844e] transition-transform origin-left ${
                       isServices && servicesOpen
                         ? "scale-x-100"
                         : "scale-x-0 group-hover:scale-x-100"
@@ -109,18 +110,18 @@ export function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Get directions"
-            className="hidden md:inline-flex h-10 w-10 items-center justify-center rounded-full text-white hover:text-[#000033] hover:bg-white/15 transition-colors"
+            className="hidden md:inline-flex h-10 w-10 items-center justify-center rounded-full text-[#000033] hover:text-[#a2844e] hover:bg-[#fff8ee] transition-colors"
           >
             <MapPinIcon className="h-5 w-5" />
           </a>
-          <span className="hidden md:block h-7 w-px bg-white/30" />
+          <span className="hidden md:block h-7 w-px bg-[#e0dccf]" />
           <a
             href={CONTACT.phoneHref}
-            className="hidden md:inline-flex items-center gap-2.5 text-white hover:text-[#000033] transition-colors"
+            className="hidden md:inline-flex items-center gap-2.5 text-[#000033] hover:text-[#a2844e] transition-colors"
           >
-            <span className="relative flex h-9 w-9 items-center justify-center rounded-full bg-white/15 ring-1 ring-white/30">
+            <span className="relative flex h-9 w-9 items-center justify-center rounded-full bg-[#fff8ee] ring-1 ring-[#a2844e]/30 text-[#a2844e]">
               <PhoneIcon className="h-4 w-4" />
-              <span className="absolute inset-0 rounded-full ring-2 ring-white opacity-60 animate-ping" />
+              <span className="absolute inset-0 rounded-full ring-2 ring-[#a2844e] opacity-50 animate-ping" />
             </span>
             <span className="text-[15px] xl:text-[17px] font-bold tracking-wide">
               {CONTACT.phone}
@@ -129,7 +130,7 @@ export function Navbar() {
 
           <a
             href={CONTACT.bookUrl}
-            className="hidden sm:inline-flex h-10 items-center justify-center rounded-full bg-[#000033] px-5 text-[13px] font-semibold text-white hover:bg-black shadow-md transition-colors"
+            className="hidden sm:inline-flex h-10 items-center justify-center rounded-full bg-[#000033] px-5 text-[13px] font-semibold text-white hover:bg-[#a2844e] shadow-md transition-colors"
           >
             Book Now
           </a>
@@ -138,7 +139,7 @@ export function Navbar() {
             type="button"
             aria-label="Toggle navigation"
             onClick={() => setOpen((v) => !v)}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-md text-white hover:bg-white/10 lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-md text-[#000033] hover:bg-[#fff8ee] lg:hidden"
           >
             {open ? (
               <CloseIcon className="h-6 w-6" />
@@ -221,20 +222,22 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {open ? (
-        <div className="lg:hidden border-t border-white/20 bg-[#a2844e] max-h-[80vh] overflow-y-auto">
+        <div className="lg:hidden border-t border-[#e0dccf] bg-white max-h-[80vh] overflow-y-auto">
           <nav className="mx-auto flex max-w-[1600px] flex-col px-4 py-2">
             {NAV_LINKS.map((link) => {
               const isOpen = mobileSub === link.label;
               return (
                 <div
                   key={link.label}
-                  className="border-b border-white/15 last:border-b-0"
+                  className="border-b border-[#e0dccf] last:border-b-0"
                 >
                   <div className="flex items-center justify-between">
                     <a
                       href={link.href}
                       onClick={() => !link.menu && setOpen(false)}
-                      className="flex-1 inline-flex items-center gap-2 px-2 py-3 text-[13px] font-semibold uppercase tracking-wide text-white"
+                      className={`flex-1 inline-flex items-center gap-2 px-2 py-3 text-[13px] font-semibold uppercase tracking-wide ${
+                        link.emergency ? "text-[#D80621]" : "text-[#000033]"
+                      }`}
                     >
                       {link.flag ? (
                         <MapleLeafIcon
@@ -249,7 +252,7 @@ export function Navbar() {
                         type="button"
                         onClick={() => setMobileSub(isOpen ? null : link.label)}
                         aria-label={`Toggle ${link.label} menu`}
-                        className="px-3 py-3 text-white"
+                        className="px-3 py-3 text-[#000033]"
                       >
                         <ChevronDownIcon
                           className={`h-4 w-4 transition-transform ${isOpen ? "rotate-180" : ""}`}
@@ -261,7 +264,7 @@ export function Navbar() {
                     <div className="pb-3 pl-2">
                       {SERVICE_CATEGORIES.map((cat) => (
                         <div key={cat} className="mt-3">
-                          <h5 className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/85 mb-1.5">
+                          <h5 className="text-[10px] font-bold uppercase tracking-[0.18em] text-[#a2844e] mb-1.5">
                             {cat}
                           </h5>
                           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2">
@@ -272,7 +275,7 @@ export function Navbar() {
                                 <a
                                   href={s.href}
                                   onClick={() => setOpen(false)}
-                                  className="block px-2 py-1.5 text-[12px] text-white/90 hover:text-[#000033]"
+                                  className="block px-2 py-1.5 text-[12px] text-[#334155] hover:text-[#a2844e]"
                                 >
                                   {s.label}
                                 </a>
@@ -288,9 +291,9 @@ export function Navbar() {
             })}
             <a
               href={CONTACT.phoneHref}
-              className="mt-3 inline-flex items-center justify-center gap-2 h-11 rounded-full bg-white/15 text-white text-[13px] font-bold ring-1 ring-white/30"
+              className="mt-3 inline-flex items-center justify-center gap-2 h-11 rounded-full bg-[#fff8ee] text-[#000033] text-[13px] font-bold ring-1 ring-[#a2844e]/30"
             >
-              <PhoneIcon className="h-4 w-4" />
+              <PhoneIcon className="h-4 w-4 text-[#a2844e]" />
               {CONTACT.phone}
             </a>
             <a

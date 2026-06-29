@@ -14,21 +14,21 @@ const ITEMS = [
   },
   {
     num: "02",
-    title: "Highly Trained Team",
+    title: "Personalized Treatment Plans",
     body:
-      "Our dentists and hygienists undergo continuous education to bring you the latest techniques and technology in modern dentistry.",
+      "Every smile is unique. We take the time to understand your needs and create treatment plans tailored to your oral health goals and budget.",
   },
   {
     num: "03",
-    title: "IV Sedation Dentistry Available",
+    title: "Convenient & Family-Friendly",
     body:
-      "Anxious about dental visits? Our IV sedation option lets you sleep comfortably through complex procedures, waking up to a beautiful smile.",
+      "With flexible appointment scheduling, a caring team, and a focus on patient education, we make dental visits simple and stress-free for the whole family.",
   },
   {
     num: "04",
-    title: "State-Of-The-Art Dental Office",
+    title: "Accessible & Convenient Care",
     body:
-      "We invest in the best equipment — digital X-rays, intraoral cameras, and comfortable treatment chairs — for precise, efficient care.",
+      "Your oral health shouldn't have to wait. BAL Dental Centre is open 7 days a week to fit your busy schedule, proudly accepts the Canadian Dental Care Plan (CDCP) and IFHB coverage, and welcomes patients of all ages. Our goal is to make quality dental care affordable, accessible, and convenient for everyone in our community.",
   },
   {
     num: "05",
